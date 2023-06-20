@@ -1,0 +1,104 @@
+{
+  "name": "sinri_ux",
+  "title": "sinri UI SDK",
+  "description": "sinri Design System",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "baseUrl": "./src",
+  "paths": {
+    "@styles/*": [
+      "styles/*"
+    ],
+    "@assets/*": [
+      "assets/*"
+    ]
+  },
+  "author": "sinri0809",
+  "dependencies": {
+    "@babel/core": "7.12.3",
+    "@stomp/stompjs": "^6.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.37",
+    "@types/react-dom": "^16.9.8",
+    "eslint": "7.28.0",
+    "eslint-config-airbnb-typescript": "^16.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "node-sass": "^7.0.0",
+    "postcss-url": "^10.1.3",
+    "prettier": "^2.4.1",
+    "react-dom": "^16.13.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-scripts": "4.0.3",
+    "rollup-plugin-uglify": "^6.0.4",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lib:build": "rollup -c",
+    "lib:start": "rollup -c -w"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-url": "^6.1.0",
+    "@types/react": "^16.13.1",
+    "@types/react-table": "^7.7.8",
+    "@types/stompjs": "^2.3.5",
+    "@types/styled-components": "^5.1.16",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.24",
+    "rollup": "^2.61.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-prettier": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.31.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinri0809/sinri_ux"
+  },
+  "license": "ISC"
+}
